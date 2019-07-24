@@ -15,6 +15,8 @@ class Consumer implements Runnable {
         while (true) {
             try {
                 consume();
+                Thread.sleep(500);
+
 
             } catch (InterruptedException ex) {
                 Thread.currentThread().interrupt();

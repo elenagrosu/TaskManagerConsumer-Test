@@ -17,6 +17,7 @@ class Producer implements Runnable {
         while (!Thread.currentThread().isInterrupted()) {
             try {
                 produce();
+                Thread.sleep(500);
 
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
