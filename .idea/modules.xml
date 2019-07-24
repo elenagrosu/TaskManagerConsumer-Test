@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ProducerConsumerManager/ProducerConsumerManager.iml" filepath="$PROJECT_DIR$/ProducerConsumerManager/ProducerConsumerManager.iml" />
       <module fileurl="file://$PROJECT_DIR$/TaskManagerConsumer-Test.iml" filepath="$PROJECT_DIR$/TaskManagerConsumer-Test.iml" />
     </modules>
   </component>
