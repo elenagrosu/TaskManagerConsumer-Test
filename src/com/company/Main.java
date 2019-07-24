@@ -49,6 +49,7 @@ public class Main {
         for(int i=1;i<ProductionManager.consumerThreadNr;i++) {
             Future producerThread = serviceConsumers.submit(new Producer(ProductionManager.taskQueue, initialQueueSize));
 
+
         }
         System.out.println("Done");
 
